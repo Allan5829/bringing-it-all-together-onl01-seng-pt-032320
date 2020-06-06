@@ -1,5 +1,6 @@
 class Dog
 
+<<<<<<< HEAD
   attr_accessor :id, :name, :breed
 
   def initialize (hash)
@@ -90,5 +91,7 @@ class Dog
     sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
+=======
+>>>>>>> 2530f77f8b19531eeab0519a6d8fea6843fb7fb2
 
 end
